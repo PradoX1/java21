@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color:#30598c;
+    height: 62px;
+    align-items: center;
+}
+.item a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.item{
+    position: relative;
+}
+.sup-menu{
+    background-color: #30598c;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    
+}

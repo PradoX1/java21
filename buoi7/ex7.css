@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@keyframes spin{
+    0%{
+        /* bat dau hoat anh */
+        transform: translate(50px,50px) rotate(0deg);
+    }
+    100%{
+        /* lusc hieu ung ket thuc */
+        transform: translate(50px,50px) rotate(360deg);
+    }
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      214deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(69, 64, 21, 1) 18%,
+      rgba(83, 121, 9, 1) 37%,
+      rgba(163, 45, 95, 1) 61%,
+      rgba(79, 131, 177, 1) 83%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    transform: translate(100px,100px) ;
+animation: spin 10s linear 0s infinite ;
+}

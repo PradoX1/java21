@@ -1,0 +1,37 @@
+.post{
+    width: 800px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    /* an noi dung bi tran ra ngoai */
+    overflow: hidden;
+}
+.post:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+
+}
+.post-thumnail{
+    /* giỡi hạn độ rộng = kích thước pt cha */
+    max-width: 100%;
+    /* xoá bỏ khoản trắng ( chân dòng) dưới ảnh */
+    vertical-align: middle;
+    
+}
+.post-title{
+    /* them khoang cach t van ban ra vien */
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+}
+.post-except{
+    /* them khoang cach xung quanh noi dung */
+    padding: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.post-meta{ width: 800px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;}
+.post-published{
+    float: right;
+}

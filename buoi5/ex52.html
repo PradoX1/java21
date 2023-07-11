@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="ex52.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="form-field">
+            <label for="username">Tài khoản</label>
+            <input type="text" id="username">
+            <div class="form-field">
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password">
+            </div>
+            <div class="form-field">
+                <span class="form-label">Giới tính</span>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Nam</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Nữ</label>
+                <input type="radio" name="gender" id="lgbt">
+                <label for="lgbt">Khác</label>
+                <!-- Chỉ chon 1 trong các giá trị -->
+            </div>
+            <div class="form-field">
+                <span class="form-label">Môn thể thao yêu thích</span>
+                <input type="checkbox" name="hobbies" id="soccer">
+                <label for="soccer">Bóng đá</label>
+                <input type="checkbox" name="hobbies" id="basketball">
+                <label for="basketball">Bóng rổ</label>
+                <input type="checkbox" name="hobbies" id="golf">
+                <label for="golf">Chơi golf</label>
+                <!-- Chọn 0 hoặc nhiều giá trị -->
+            </div>
+
+        </div>
+        <div class="form-field">
+            <!-- Khi có nhiều tuỳ chọn cho 1 trường giá trị -->
+            <label for="address">Địa chỉ thường trú</label>
+            <select name="address" id="">
+                <option value="nd">Nam Định</option>
+                <option value="hn">Hà Nội</option>
+            </select>
+        </div>
+        <div class="form-field">
+            <!-- Phù hợp với các cmt, nội dung bài viết,.. -->
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-field">
+            <!-- dùng cho cách hành động -->
+            <button>Click me</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

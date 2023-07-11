@@ -1,0 +1,39 @@
+.box1 {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  position: relative;
+  top: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(45deg);
+  animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+@keyframes beat{
+	to { transform: rotate(45deg) scale(1.4); }
+}
+.box2 {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  position: absolute;
+  top: -50%;
+  border-radius: 50%;
+  z-index: 1;
+}
+.box3 {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  left: -50%;
+  z-index: 1;
+}
+.box1 img{
+    z-index: 2;
+    position: absolute;
+    transform: translate(35%,35%) rotate(-45deg);
+}
