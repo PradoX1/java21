@@ -1,0 +1,60 @@
+.wave-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30vw;
+  height: 100px;
+  margin-top: 200px;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding-top: 50px;
+  border-radius: 30%;
+  background-color: #30598c;
+  color: white;
+}
+.wave-text span {
+  display: inline-block;
+  animation: wave-text 1s ease-in-out infinite;
+}
+.wave-text span:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.wave-text span:nth-of-type(2) {
+  animation-delay: 0.1s;
+}
+.wave-text span:nth-of-type(3) {
+  animation-delay: 0.2s;
+}
+.wave-text span:nth-of-type(4) {
+  animation-delay: 0.3s;
+}
+.wave-text span:nth-of-type(5) {
+  animation-delay: 0.4s;
+}
+.wave-text span:nth-of-type(6) {
+  animation-delay: 0.5s;
+}
+.wave-text span:nth-of-type(7) {
+  animation-delay: 0.6s;
+}
+.wave-text span:nth-of-type(8) {
+  animation-delay: 0.7s;
+}
+.wave-text span:nth-of-type(9) {
+  animation-delay: 0.8s;
+}
+.wave-text span:nth-of-type(10) {
+  animation-delay: 0.9s;
+}
+@keyframes wave-text {
+  00% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
