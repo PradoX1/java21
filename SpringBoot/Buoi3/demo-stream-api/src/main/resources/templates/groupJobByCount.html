@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Job by Count</title>
+</head>
+<body>
+<h1>Group Job by Count</h1>
+<ul>
+    <li th:each="job : ${jobs}" th:text="${job}"></li>
+</ul>
+</body>
+</html>

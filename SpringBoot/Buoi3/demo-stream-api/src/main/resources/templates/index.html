@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+<h1>Welcome to the Index Page</h1>
+<ul>
+    <li><a th:href="@{/groupPeopleByCity}" th:text="Group People by City"></a></li>
+    <li><a th:href="@{/groupJobByCount}" th:text="Group Job by Count"></a></li>
+    <li><a th:href="@{/aboveAverageSalary}" th:text="Above Average Salary"></a></li>
+    <li><a th:href="@{/longestName}" th:text="Longest Name"></a></li>
+</ul>
+</body>
+</html>
