@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail Product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/detailProduct.css">
+</head>
+<body>
+<div class="head-detail-container">
+    <div class="head-detail">
+        <h1><a th:href="@{/}">Trang Chủ</a></h1>
+        <h1>Sản phẩm
+            <th:block th:text="${product.getId()}">></th:block>
+        </h1>
+    </div>
+
+</div>
+<div class="detail-product-container">
+    <div class="detail-product">
+        <div>
+            <img width="300px" height="300px" th:src="${product.getThumbnail()}" alt=""><img/>
+        </div>
+        <div class="detail">
+            <div class="name-product" th:text="${product.getName()}">
+            </div>
+            <div class="des-product" th:text="${product.getDescription()}">
+
+            </div>
+            <div class="price-product">
+                <div class="price">
+                    <th:block th:text="${product.getPrice()}"></th:block>
+                    $
+                </div>
+                <div>
+                </div>
+                <div class="price-discount">
+                    <th:block th:text="${product.getPriceDiscount()}"></th:block>
+                    $
+                </div>
+            </div>
+            <div class="rate">
+                <th:block th:text="${product.getRating()}"></th:block>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

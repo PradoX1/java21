@@ -1,0 +1,31 @@
+id,name,description,thumnail,price,rating,priceDiscount
+1,Product G,Consectetur adipiscing elit,thumbnail5.jpg,6115,3.2,4257
+2,Product B,Sed do eiusmod tempor incididunt,thumbnail9.jpg,9309,3.8,3201
+3,Product D,Sed do eiusmod tempor incididunt,thumbnail9.jpg,8278,1.2,2209
+4,Product J,Ut labore et dolore magna aliqua,thumbnail5.jpg,5163,3.5,2621
+5,Product F,Consectetur adipiscing elit,thumbnail2.jpg,7982,2.9,3005
+6,Product A,Ut labore et dolore magna aliqua,thumbnail3.jpg,9352,2.7,3305
+7,Product G,Consectetur adipiscing elit,thumbnail2.jpg,9252,5.0,2040
+8,Product I,Ut enim ad minim veniam,thumbnail7.jpg,6857,3.7,2828
+9,Product E,Lorem ipsum dolor sit amet,thumbnail9.jpg,7411,4.4,3870
+10,Product G,Laboris nisi ut aliquip ex ea commodo consequat,thumbnail4.jpg,8010,2.8,2279
+11,Product D,Laboris nisi ut aliquip ex ea commodo consequat,thumbnail3.jpg,5158,1.2,2963
+12,Product C,Ut labore et dolore magna aliqua,thumbnail8.jpg,9017,2.7,2944
+13,Product H,Eu fugiat nulla pariatur,thumbnail2.jpg,8775,3.1,2003
+14,Product C,Consectetur adipiscing elit,thumbnail6.jpg,5624,2.8,4074
+15,Product H,Ut labore et dolore magna aliqua,thumbnail3.jpg,6125,3.1,3864
+16,Product F,Sed do eiusmod tempor incididunt,thumbnail2.jpg,5766,4.0,3337
+17,Product I,Lorem ipsum dolor sit amet,thumbnail1.jpg,9742,1.4,2992
+18,Product E,Duis aute irure dolor in reprehenderit,thumbnail8.jpg,9916,1.5,3691
+19,Product D,Ut enim ad minim veniam,thumbnail7.jpg,9827,3.0,4158
+20,Product E,Sed do eiusmod tempor incididunt,thumbnail4.jpg,8391,3.0,4243
+21,Product J,Ut enim ad minim veniam,thumbnail6.jpg,9875,4.2,4446
+22,Product J,Sed do eiusmod tempor incididunt,thumbnail3.jpg,9522,1.4,4275
+23,Product E,Duis aute irure dolor in reprehenderit,thumbnail7.jpg,7801,4.8,3174
+24,Product H,Lorem ipsum dolor sit amet,thumbnail8.jpg,9823,3.1,2681
+25,Product F,Voluptate velit esse cillum dolore,thumbnail10.jpg,9448,1.5,2102
+26,Product C,Duis aute irure dolor in reprehenderit,thumbnail2.jpg,8162,2.4,2124
+27,Product A,Quis nostrud exercitation ullamco,thumbnail4.jpg,5035,3.3,3051
+28,Product B,Ut labore et dolore magna aliqua,thumbnail8.jpg,7965,1.7,2327
+29,Product I,Quis nostrud exercitation ullamco,thumbnail3.jpg,9503,4.4,2090
+30,Product G,Eu fugiat nulla pariatur,thumbnail9.jpg,7021,4.2,4083
